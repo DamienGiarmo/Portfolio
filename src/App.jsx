@@ -27,4 +27,4 @@ const App = () => {
 
 export default App;
 
-//espace mettre en place le contact pour que sa marche et developpe plus le truc cyber et rajouter un truc loisir 
+//en place le contact  

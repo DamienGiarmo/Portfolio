@@ -24,7 +24,7 @@ const Forms = () => {
               <input
                 type="text"
                 id="email-address-icon"
-                className="rounded-lg ps-10 p-2.5 dark:bg-gray-700"
+                className="rounded-lg ps-10 p-2.5 dark:bg-gray-700 text-[#70B8FF]"
                 placeholder="exemple@mail.com"
               />
             </div>
@@ -32,7 +32,7 @@ const Forms = () => {
 
           {/* Formulaire Username */}
           <div>
-            <label htmlFor="block mb-2 text-sm font-medium text-[#70B8FF]">
+            <label className="block mb-2 text-sm font-medium text-[#70B8FF]">
               Nom Prénom
             </label>
             <div className="flex">
@@ -46,7 +46,7 @@ const Forms = () => {
               <input
                 type="text"
                 id="website-admin"
-                className="rounded-none block flex-1 min-w-0 w-full p-2.5 dark:bg-gray-700"
+                className=" block flex-1 min-w-0 w-full p-2.5 rounded-r-lg text-[#70B8FF] dark:bg-gray-700"
                 placeholder="Nom Prenom"
               />
             </div>
@@ -54,14 +54,14 @@ const Forms = () => {
 
           {/* Formulaire Message */}
           <div>
-            <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            <label htmlFor="message" className="block mb-2 text-sm font-medium text-[#70B8FF]">
               Ton message
             </label>
             <textarea
               id="message"
               rows="4"
-              className="block p-2.5 w-full text-sm text-[#70B8FF] rounded-lg dark:bg-gray-700 "
-              placeholder="Leave a comment..."
+              className="block p-2.5 w-full text-sm text-[#70B8FF] rounded-lg dark:bg-gray-700"
+              placeholder="Message"
             ></textarea>
           </div>
 

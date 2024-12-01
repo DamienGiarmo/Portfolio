@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from './assets/images/CV_Giarmo_Damien.png'; 
+import CV from '../assets/CV_Giarmo_Damien.png'; 
 const Cv = () => {
   return (
     <div className="lg:w-1/3 p-4 mb-6 lg:mb-0 text-center">

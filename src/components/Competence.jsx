@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import Cv from '../components/Cv';
-import drapeau from '.assets/drapeau.png'
-import C from '.assets/C.png'
-import CC from '.assets/C++.png'
-import musculation from '.assets/musculation.png'
-import osint from '.assets/osint.png'
-import python from '.assets/python.png'
-import react from '.assets/react.png'
-import reseaux from '.assets/reseaux.png'
-import batterie from '.assets/batterie.png'
-import trophee from '.assets/trophee.png'
+import drapeau from '../assets/drapeau.png'
+import C from '../assets/C_sharp.png'
+import Cpp from '../assets/Cpp.png'
+import musculation from '../assets/musculation.png'
+import osint from '../assets/osint.png'
+import python from '../assets/python.png'
+import react from '../assets/react.png'
+import reseaux from '../assets/reseaux.png'
+import batterie from '../assets/batterie.png'
+import trophee from '../assets/trophee.png'
 const Competence = () => {
   const [activeSection, setActiveSection] = useState(null);
 
@@ -71,11 +71,11 @@ const Competence = () => {
               <div className="mt-4 dark:bg-[#003362] rounded-lg w-3/4 text-[#C2E6FF] px-6 py-3 ml-auto">
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center gap-4">
-                    <img src={C} alt="C#" className="h-16 w-16" />
+                    <img src={C} alt="C#" className="h-16 w-30" />
                     <p className="text-lg font-semibold">C#</p>
                   </div>
                   <div className="flex items-center gap-4">
-                    <img src={CC} alt="C++" className="h-16 w-16" />
+                    <img src={Cpp} alt="C" className="h-16 w-16" />
                     <p className="text-lg font-semibold">C++</p>
                   </div>
                   <div className="flex items-center gap-4">

@@ -8,7 +8,7 @@ const Footer = () => {
           <ul className="flex flex-wrap text-sm font-medium dark:text-gray-400">
             <li>
               <a href="#presentation" className="dark:text-[#70B8FF] md:dark:hover:text-[#0090FF] md:me-6">
-                Moi
+                Présentation
               </a>
             </li>
             <li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
         <hr className="dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm sm:text-center dark:text-white">
+        <span className="block text-sm sm:text-center text-[#70B8FF]">
           2024 BY Giarmo Damien
         </span>
       </div>

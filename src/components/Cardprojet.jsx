@@ -1,7 +1,7 @@
 import React from 'react';
-import malware from './assets/malware.jpeg';
-import minijeux from './assets/minijeux.png';
-
+import malware from '../assets/malware.jpeg';
+//import minijeux from '../assets/minijeux.png';
+import fond from '../assets/fond.png';
 const Cardprojet = () => {
   return (
     <div className="flex justify-center mb-8">
@@ -9,14 +9,16 @@ const Cardprojet = () => {
         {/* Card 1 */}
         <div className="max-w-sm rounded-lg dark:bg-[#003362]">
           <a href="#">
-            <img className="rounded-t-lg" src={minijeux} alt="Mini jeux" />
+            <img className="rounded-t-lg" src={fond} alt="Mini jeux" />
           </a>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold text-[#70B8FF]">Mini jeux</h5>
             </a>
             <p className="mb-3 font-normal text-[#C2E6FF]">
-              Le projet de mini jeux consitent a faire plusieur mini jeux en java.
+              Le projet de mini-jeux consiste à développer plusieurs petits jeux en Java.                  
+              <br />
+
             </p>
             <a
               href="#"
@@ -83,10 +85,10 @@ const Cardprojet = () => {
           </a>
           <div className="p-5">
             <a href="#">
-              <h5 className="mb-2 text-2xl font-bold text-[#70B8FF]">Nom Projet 3</h5>
+              <h5 className="mb-2 text-2xl font-bold text-[#70B8FF]">SOON</h5>
             </a>
             <p className="mb-3 font-normal text-[#C2E6FF]">
-              Description brève du projet 3. Expliquez son objectif ou sa fonctionnalité en quelques mots.
+              SOON
             </p>
             <a
               href="#"

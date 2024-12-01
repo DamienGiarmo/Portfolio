@@ -60,7 +60,7 @@ const Navbar = () => {
                 href="#presentation"
                 className="text-[#70B8FF] hover:text-[#0090FF]"
               >
-                Moi
+                Présentation
               </a>
             </li>
             <li>

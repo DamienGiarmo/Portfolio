@@ -1,5 +1,5 @@
 import React from 'react';
-import presentation from './assets/images/lowpoly.png';
+import profile from '../assets/profile.jpg';
 const Presentation = () => {
   return (
     <div id="presentation" className="flex justify-center p-8">
@@ -15,7 +15,7 @@ const Presentation = () => {
         {/* Section Image */}
         <div className="mr-16">
           <img
-            className="rounded-full w-40 h-40 bg-auto" src={presentation} alt="Image moi"
+            className="rounded-full w-40 h-40 bg-cover" src={profile} alt="Image moi"
           />
         </div>
       </div>
