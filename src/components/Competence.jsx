@@ -24,10 +24,9 @@ const Competence = () => {
 
         {/* Section Compétences */}
         <div className="lg:w-2/3 lg:pl-6">
-          {/* Titre avec espace en bas */}
           <h1 className="text-3xl font-bold text-[#C2E6FF] mb-8">Mes Compétences</h1>
 
-          {/* Section Cybersécurité */}
+          {/* Cybersécurité */}
           <div className="mb-6">
             <button
               onClick={() => toggleSection('cybersecurite')}
@@ -59,7 +58,7 @@ const Competence = () => {
             )}
           </div>
 
-          {/* Section Programme  */}
+          {/* Programme  */}
           <div className="mb-4">
             <button
               onClick={() => toggleSection('programmation')}
@@ -91,7 +90,7 @@ const Competence = () => {
             )}
           </div>
           
-          {/* Section Loisir */}
+          {/* Loisir */}
           <div className="mb-6">
             <button
               onClick={() => toggleSection('Loisirs')}

@@ -6,6 +6,7 @@ const Cardprojet = () => {
   return (
     <div className="flex justify-center mb-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-20">
+
         {/* Card 1 */}
         <div className="max-w-sm rounded-lg dark:bg-[#003362]">
           <a href="#">
@@ -18,26 +19,14 @@ const Cardprojet = () => {
             <p className="mb-3 font-normal text-[#C2E6FF]">
               Le projet de mini-jeux consiste à développer plusieurs petits jeux en Java.                  
               <br />
-
             </p>
             <a
               href="#"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-[#C2E6FF] rounded-lg dark:bg-blue-500 dark:hover:bg-blue-500"
             >
               En savoir plus
-              <svg
-                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
+              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
             </a>
           </div>
@@ -60,19 +49,8 @@ const Cardprojet = () => {
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-[#C2E6FF] rounded-lg dark:bg-blue-600 dark:hover:bg-blue-700"
             >
               En savoir plus
-              <svg
-                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
+              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
             </a>
           </div>
@@ -95,19 +73,8 @@ const Cardprojet = () => {
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-[#C2E6FF] rounded-lg dark:bg-blue-600 dark:hover:bg-blue-7000"
             >
               En savoir plus
-              <svg
-                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
+              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
             </a>
           </div>

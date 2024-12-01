@@ -7,7 +7,7 @@ const Forms = () => {
         <form className="space-y-6">
           <h5 className="text-xl font-medium text-[#70B8FF] "></h5>
 
-          {/* Formulaire Email */}
+          {/* Forms Email */}
           <div>
             <label htmlFor="email-address-icon" className="block mb-2 text-sm font-medium text-[#70B8FF]">
               Ton Email
@@ -30,7 +30,7 @@ const Forms = () => {
             </div>
           </div>
 
-          {/* Formulaire Username */}
+          {/* Forms Name */}
           <div>
             <label className="block mb-2 text-sm font-medium text-[#70B8FF]">
               Nom Prénom
@@ -52,7 +52,7 @@ const Forms = () => {
             </div>
           </div>
 
-          {/* Formulaire Message */}
+          {/* Forms Message */}
           <div>
             <label htmlFor="message" className="block mb-2 text-sm font-medium text-[#70B8FF]">
               Ton message
@@ -66,10 +66,7 @@ const Forms = () => {
           </div>
 
           {/* Submit Button */}
-          <button
-            type="submit"
-            className="w-full text-sm font-medium text-[#C2E6FF] rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700"
-          >
+          <button type="submit" className="w-full text-sm font-medium text-[#C2E6FF] rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700">
             Envoie 
           </button>
         </form>
